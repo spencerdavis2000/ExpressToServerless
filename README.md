@@ -1,4 +1,14 @@
 # Express JS  in AWS Lambda
+
+I got it from this tutorial
+```
+https://www.youtube.com/watch?v=2_mv0ACpamo
+
+```
+
+
+
+
 This is a boiler plate code to deploy Express in AWS Lambda using Serverless JS. Using this you can built Express APIs in your local machine and deploy them in AWS lambda with just few commands.
 
 Run the local.js file to test the application locally
