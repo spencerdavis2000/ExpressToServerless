@@ -4,14 +4,17 @@
   "description": "making an express app serverless",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "deploy": "serverless deploy"
   },
   "author": "Spencer Davis",
   "license": "ISC",
   "dependencies": {
+    "aws-serverless-express": "^3.3.8",
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.2",
+    "serverless": "^1.67.2"
   }
 }
